@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import NavBar from './NavBar'
 
 import Home from './Home'
@@ -47,6 +47,7 @@ function App() {
             />}
           />
           <Route path='/contact-me' element={<Contact />} />
+          <Route path='*' element={<Navigate to='/' replace />} />
         </Routes>
         </BrowserRouter>
       </div>
