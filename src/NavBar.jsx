@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <div className="NavBar">
       <Navbar expand="md">
-        <NavLink to="/" className="navbar-brand">
+        <NavLink to="/" className="navbar-brand NavBar-homepage">
           Homepage
         </NavLink>
 

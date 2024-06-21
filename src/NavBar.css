@@ -49,6 +49,11 @@ nav a:not(.navbar-brand):hover {
   color: white;
 }
 
+.NavBar-homepage:hover {
+  /* border-bottom: 3px solid; */
+  font-weight: bold;
+}
+
 nav a {
   color: white;
   text-decoration: none;
