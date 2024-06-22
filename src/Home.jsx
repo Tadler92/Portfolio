@@ -32,7 +32,7 @@ const Home = () => {
 
       {/* <div> */}
 
-        <hr className='Home-line my-5' />
+        <hr id='first-hr' className='Home-line my-5' />
 
         <Project 
           projectName='Movie Awards Draft'

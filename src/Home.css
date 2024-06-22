@@ -154,4 +154,8 @@ hr {
     top: 150px;
     margin-bottom: 100px;
   }
+
+  #first-hr {
+    margin-top: 50px;
+  }
 }
