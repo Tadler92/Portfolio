@@ -149,10 +149,12 @@ hr {
 
   .Home-bio {
     width: 300px;
-    position: relative;
+    /* position: relative;
     left: 200px;
     top: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; */
+    margin-top: 200px;
+    margin-left: 200px;
   }
 
   #first-hr {
