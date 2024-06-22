@@ -121,13 +121,13 @@ hr {
   .Home-info h1 {
     position: relative;
     top: -30px;
-    left: 135px;
+    left: 125px;
   }
 
   .Home-info p {
     position: relative;
     top: -30px;
-    left: 135px;
+    left: 95px;
   }
 
   .Home-img {
@@ -137,12 +137,12 @@ hr {
     height: 200px;
     position: relative;
     left: -100px;
-    top: 20px;
+    top: 30px;
   }
 
   .Home-info figure {
     position: relative;
     top: 30px;
-    left: 135px;
+    left: 95px;
   }
 }
