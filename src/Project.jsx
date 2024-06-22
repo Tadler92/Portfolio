@@ -33,7 +33,6 @@ const Project = ({projectName, projectDescription, projectURL, skills, pathname,
           {/* <button {<Link to={projectURL} target='_blank' />}>Check out project site</button> */}
         </div>
         <div className='Project-img'>
-          {/* <img src="./images/Headshot1" /> */}
           <img src={projectImg} />
         </div>
       </div>

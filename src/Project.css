@@ -1,9 +1,26 @@
+@media (min-width: 800px) {
 .Project {
   margin-top: 20px;
   display: flex;
   /* justify-content: space-between; */
   gap: 100px;
   /* margin-left: 15%; */
+}
+}
+
+@media (max-width: 800px) {
+  .Project {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+  }
+
+  .Project-img {
+    margin-top: 30px;
+  }
 }
 
 .Project-info {
@@ -30,9 +47,9 @@
   /* object-fit: fill; */
 }
 
-.Home-bio {
+/* .Home-bio {
   width: 700px;
-}
+} */
 
 figure {
   margin: 15px 30px;
