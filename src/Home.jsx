@@ -30,7 +30,7 @@ const Home = () => {
         </p>
       {/* </div> */}
 
-      {/* <div> */}
+      <div className='Home-projects'>
 
         <hr id='first-hr' className='Home-line my-5' />
 
@@ -53,6 +53,7 @@ const Home = () => {
           pathname='/react-jobly'
           projectImg={cap2Img} 
         />
+        </div>
       </div>
     </div>
   )
