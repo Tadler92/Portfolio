@@ -18,7 +18,11 @@ function NavBar() {
   return (
     <div className="NavBar">
       <Navbar expand="md">
-        <NavLink to="/" className="navbar-brand NavBar-homepage">
+        <NavLink 
+          to="/" 
+          className="navbar-brand NavBar-homepage"
+          // onClick={toggle}
+        >
           Homepage
         </NavLink>
 
@@ -27,17 +31,31 @@ function NavBar() {
         <Collapse className="justify-content-end" isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink className='mx-2' to="/move-awards-draft">
+              <NavLink 
+                className='mx-2' 
+                to="/move-awards-draft" 
+                onClick={toggle}
+              >
                 Python/Flask Project
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className='mx-2' to="/react-jobly">
+              <NavLink 
+                className='mx-2' 
+                to="/react-jobly"
+                onClick={toggle}
+              >
                 React Project
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className='mx-2' to="/contact-me">Contact Me</NavLink>
+              <NavLink 
+                className='mx-2' 
+                to="/contact-me"
+                onClick={toggle}
+              >
+                Contact Me
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>

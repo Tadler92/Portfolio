@@ -23,9 +23,18 @@
   }
 }
 
-.Project-info {
-  background-color: lightblue;
-  width: 350px;
+@media (min-width: 400px) {
+  .Project-info {
+    background-color: lightblue;
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Project-info {
+    background-color: lightblue;
+    width: 300px;
+  }
 }
 
 .Project-img {
