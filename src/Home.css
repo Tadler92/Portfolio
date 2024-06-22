@@ -136,13 +136,20 @@ hr {
     width: 200px;
     height: 200px;
     position: relative;
-    left: -130px;
+    left: -160px;
     top: 60px;
   }
 
   .Home-info figure {
     position: relative;
-    top: 100px;
+    top: 200px;
     left: 110px;
+  }
+
+  .Home-bio {
+    width: 300px;
+    position: relative;
+    left: 200px;
+    top: 200px;
   }
 }
