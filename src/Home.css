@@ -136,13 +136,13 @@ hr {
     width: 200px;
     height: 200px;
     position: relative;
-    left: -100px;
-    top: 30px;
+    left: -130px;
+    top: 60px;
   }
 
   .Home-info figure {
     position: relative;
-    top: 30px;
-    left: 95px;
+    top: 100px;
+    left: 110px;
   }
 }
