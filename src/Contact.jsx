@@ -11,7 +11,7 @@ import {
   faInstagram, 
   faFacebookMessenger
 } from '@fortawesome/free-brands-svg-icons'
-import {faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {faPhone, faEnvelope, faSms} from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   // console.log('Font Awesome Brands', fab);
@@ -30,6 +30,11 @@ const Contact = () => {
               (337) 280-5995
             </a>
           </p>
+          <p>
+            <FontAwesomeIcon icon={faSms} /> <a href='sms:3372805995'>
+              (337) 280-5995
+            </a>
+          </p>
 
           <h3 className='mt-5'>Email:</h3>
           <p>
@@ -39,7 +44,7 @@ const Contact = () => {
           </p>
 
           <figure className='Contact-socials mt-5'>
-            <figcaption>Social Media:</figcaption>
+            <figcaption className='mb-4'>Social Media:</figcaption>
             <ul className='Contact-list'>
               <li>
                 <a 
