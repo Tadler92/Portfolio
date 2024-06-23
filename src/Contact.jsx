@@ -26,12 +26,16 @@ const Contact = () => {
 
           <h3 className='mt-5'>Phone:</h3>
           <p>
-            <FontAwesomeIcon icon={faPhone} /> (337) 280-5995
+            <FontAwesomeIcon icon={faPhone} /> <a href='tel:3372805995'>
+              (337) 280-5995
+            </a>
           </p>
 
           <h3 className='mt-5'>Email:</h3>
           <p>
-            <FontAwesomeIcon icon={faEnvelope} /> taduhon1485@gmail.com
+            <FontAwesomeIcon icon={faEnvelope} /> <a href='mailto:taduhon1485@gmail.com'>
+              taduhon1485@gmail.com
+              </a>
           </p>
 
           <figure className='Contact-socials mt-5'>

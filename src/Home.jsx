@@ -15,8 +15,13 @@ const Home = () => {
             <figure>
               <figcaption>Contact Info:</figcaption>
               <ul className='Home-list'>
-                <li>Phone: 337-280-5995</li>
-                <li>Email: taduhon1485@gmail.com</li>
+                {/* <li>Phone: <a href='sms:3372805995'> => send text */}
+                <li>Phone: <a href='tel:3372805995'>
+                  337-280-5995
+                </a></li>
+                <li>Email: <a href='mailto:taduhon1485@gmail.com'>
+                  taduhon1485@gmail.com
+                </a></li>
               </ul>
             </figure>
           </div>
