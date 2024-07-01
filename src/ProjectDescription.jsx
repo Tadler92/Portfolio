@@ -17,7 +17,7 @@ const ProjectDescription = ({projectName, projectDescription, projectURL, skills
           </a>
 
           {/* <p>Paragraph 1: Explain Project</p> */}
-          <h4>Explaination of Project:</h4>
+          <h4>Explanation of Project:</h4>
           <p className='ProjectDescription-p'>{paragraph1}</p>
 
           {/* <p>Paragraph 2: List/Explain Technologies Used</p> */}
