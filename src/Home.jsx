@@ -31,7 +31,7 @@ const Home = () => {
           </div>
         </div>
         <p className='Home-bio mt-5'>
-          I am a recent student of the Springboard Bootcamp, and had a focus on full-stack software development.  Through the bootcamp, I learned JavaScript, Python, Flask, Node.js, Express, PostgreSQL, React, and many other programming languages and libraries. Below are a few of the projects I've worked on or created to showcase my abilities with the various programming languages I've learned.
+          I am a graduate of the Software Engineering Bootcamp hosted by <a href='https://www.springboard.com/courses/software-engineering-career-track/'>Springboard</a>, which focused on full-stack software development.  Through the bootcamp, I learned JavaScript, Python, Flask, Node.js, Express, PostgreSQL, React, and many other programming languages and libraries. Below are projects I've worked on or created to showcase my abilities with the various programming languages I've learned.
         </p>
       {/* </div> */}
 
@@ -46,6 +46,7 @@ const Home = () => {
           skills={['Python', 'Flask', 'Jinja', 'PostgreSQL', '+ Many More...']}
           pathname='/move-awards-draft'
           projectImg={cap1Img} 
+          projectType='Python/Flask Project'
         />
 
         <hr className='Home-line my-5' />
@@ -57,6 +58,7 @@ const Home = () => {
           skills={['React', 'JavaScript', 'HTML', 'CSS', '+ Many More...']}
           pathname='/react-jobly'
           projectImg={cap2Img} 
+          projectType='React Project'
         />
         </div>
       </div>

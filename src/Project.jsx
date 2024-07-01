@@ -3,17 +3,23 @@ import Image from './images/Headshot1.jpg'
 import './Project.css'
 import { Link, useNavigate } from 'react-router-dom';
 
-const Project = ({projectName, projectDescription, projectURL, skills, pathname, projectImg}) => {
+const Project = ({projectName, projectDescription, projectURL, skills, pathname, projectImg, projectType}) => {
   const navigate = useNavigate();
 
   return (
     <>
       <div className='Project'>
         <div className='Project-info'>
-          <h3>{projectName}</h3>
-          <p>{projectDescription}</p>
+          <h3>{projectType}</h3>
+          <p>Name: {projectName}</p>
+          <p>Description: {projectDescription}</p>
           {/* <Link to={projectURL} target='_blank' /> */}
-          <a href={projectURL} target='_blank'>Check out project site</a>
+          {/* <a href={projectURL} target='_blank'>Check out project site</a> */}
+
+          <button className='btn btn-warning mb-3' onClick={() => navigate(pathname)}>
+            Learn more about Project
+          </button>
+
           <figure>
             <figcaption>Technology/Skills Used To Create Site:</figcaption>
             <ul>
@@ -27,12 +33,18 @@ const Project = ({projectName, projectDescription, projectURL, skills, pathname,
               <li>+ Many More...</li> */}
             </ul>
           </figure>
-          <button className='btn btn-warning mb-3' onClick={() => navigate(pathname)}>
+
+          <a href={projectURL} target='_blank'>
+            Check out project site
+          </a>
+
+          {/* <button className='btn btn-warning mb-3' onClick={() => navigate(pathname)}>
             Learn more about Project
-          </button>
+          </button> */}
           {/* <button {<Link to={projectURL} target='_blank' />}>Check out project site</button> */}
         </div>
         <div className='Project-img'>
+          <small>Example image of project:</small>
           <img src={projectImg} />
         </div>
       </div>

@@ -21,7 +21,7 @@ const Contact = () => {
         <div className='Contact-info'>
           <h1 className='Contact-header'>Contact Me</h1>
           <p className='mt-4'>
-            If you wish to contact me about either one of my projects that I talk about on this site, or for something else, please contact me via one of the following options.
+            If you wish to contact me, please do so using any of the below options.
           </p>
 
           <h3 className='mt-5'>Phone:</h3>

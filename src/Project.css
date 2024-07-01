@@ -1,11 +1,15 @@
 @media (min-width: 800px) {
-.Project {
-  margin-top: 20px;
-  display: flex;
-  /* justify-content: space-between; */
-  gap: 100px;
-  /* margin-left: 15%; */
-}
+  .Project {
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+    /* margin-left: 15%; */
+  }
+
+  .Project-img {
+    top: 20px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -66,4 +70,20 @@ figure {
 
 figcaption {
   font-weight: 600;
+}
+
+.Project {
+  background-color: lightblue;
+  /* margin-bottom: 5px; */
+  padding: 25px;
+}
+
+.Project-img {
+  border: solid black 1px;
+  position: relative;
+}
+
+.Project-img small {
+  position: absolute;
+  top: -25px;
 }
