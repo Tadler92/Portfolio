@@ -26,8 +26,8 @@ const Contact = () => {
 
           <h3 className='mt-5'>Phone:</h3>
           <p>
-            <FontAwesomeIcon icon={faPhone} /> <a href='tel:3372805995'>
-              (337) 280-5995
+            <FontAwesomeIcon icon={faPhone} /> <a href='tel:3372417105'>
+              (337) 241-7105
             </a>
           </p>
           <p>

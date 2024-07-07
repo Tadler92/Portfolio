@@ -16,8 +16,8 @@ const Home = () => {
               <figcaption>Contact Info:</figcaption>
               <ul className='Home-list'>
                 {/* <li>Phone: <a href='sms:3372805995'> => send text */}
-                <li>Phone: <a href='tel:3372805995'>
-                  337-280-5995
+                <li>Phone: <a href='tel:3372417105'>
+                  337-241-7105
                 </a></li>
                 <li>Email: <a href='mailto:taduhon1485@gmail.com'>
                   taduhon1485@gmail.com
